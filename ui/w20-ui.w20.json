@@ -89,7 +89,7 @@
             "{angular-bootstrap}": "${components-path:bower_components}/angular-bootstrap",
             "{font-awesome}": "${components-path:bower_components}/font-awesome",
             "{jgrowl}": "${components-path:bower_components}/jgrowl",
-            "{showdown}": "${components-path:bower_components}/showdown/compressed"
+            "{showdown}": "${components-path:bower_components}/showdown/dist"
         },
 
         "shim" : {

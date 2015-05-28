@@ -29,9 +29,6 @@ module.exports = function (grunt) {
             extra: {
                 src: ['extra/modules/**/*.js']
             },
-            touch: {
-                src: ['touch/modules/**/*.js']
-            },
             ui: {
                 src: ['ui/modules/**/*.js']
             }
@@ -77,10 +74,6 @@ module.exports = function (grunt) {
             dataviz: {
                 src: ['dataviz/modules/*.js'],
                 dest: '.tmp/dataviz-concat.js'
-            },
-            touch: {
-                src: ['touch/modules/*.js'],
-                dest: '.tmp/touch-concat.js'
             },
             extra: {
                 src: ['extra/modules/*.js', 'extra/modules/providers/*.js'],

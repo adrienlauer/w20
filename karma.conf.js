@@ -20,7 +20,6 @@ module.exports = function(config) {
             { pattern: 'core/**/*.js*', included: false },
             { pattern: 'dataviz/**/*.js*', included: false },
             { pattern: 'extra/**/*.js*', included: false },
-            { pattern: 'touch/**/*.js*', included: false },
             { pattern: 'ui/**/*.js*', included: false },
             { pattern: 'ui/**/*.html', included: false },
             { pattern: 'bower_components/**/*', included: false }
@@ -30,7 +29,6 @@ module.exports = function(config) {
             'dataviz/modules/*.js': 'coverage',
             'extra/modules/*.js': 'coverage',
             'extra/modules/providers/*.js': 'coverage',
-            'touch/modules/*.js': 'coverage',
             'ui/modules/*.js': 'coverage'
         },
         reporters: ['dots', 'coverage' ],

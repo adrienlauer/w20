@@ -226,6 +226,8 @@ define([
             var subTree = navigationService.computeSubTree(routeTree);
             var subSubTree;
 
+            console.warn(subTree);
+
             expect(subTree).toEqual(jasmine.any(Array));
 
             expect(subTree[0]).toEqual(jasmine.any(Array));
